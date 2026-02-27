@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -6,6 +7,13 @@ export default function Home() {
       {/* Hero section */}
       <section className="bg-legion-blue text-white">
         <div className="mx-auto max-w-6xl px-4 py-20 text-center">
+          <Image
+            src="/images/legion-emblem.png"
+            alt="American Legion Emblem"
+            width={100}
+            height={100}
+            className="mx-auto mb-6"
+          />
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Richard Ellis American Legion
           </h1>

@@ -1,6 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const navLinks = [
@@ -13,6 +15,8 @@ const navLinks = [
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === "/";
 
   return (
     <header className="bg-legion-blue text-white shadow-lg">
@@ -35,22 +39,31 @@ export default function Header() {
 
       {/* Main navigation */}
       <div className="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3">
-          <div className="flex flex-col">
-            <span className="text-xl font-bold leading-tight">
-              Post 205
-            </span>
-            <span className="text-sm text-white/80 leading-tight">
-              Richard Ellis American Legion
-            </span>
-            <span className="text-xs text-white/60 leading-tight">
-              Janesville, Wisconsin
-            </span>
-          </div>
-        </Link>
+        {!isHome && (
+          <Link href="/" className="flex items-center gap-3">
+            <Image
+              src="/images/legion-emblem.png"
+              alt="American Legion Emblem"
+              width={48}
+              height={48}
+              className="flex-shrink-0"
+            />
+            <div className="flex flex-col">
+              <span className="text-xl font-bold leading-tight">
+                Post 205
+              </span>
+              <span className="text-sm text-white/80 leading-tight">
+                Richard Ellis American Legion
+              </span>
+              <span className="text-xs text-white/60 leading-tight">
+                Janesville, Wisconsin
+              </span>
+            </div>
+          </Link>
+        )}
 
         {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-1">
+        <nav className="hidden md:flex items-center gap-1 ml-auto">
           {navLinks.map((link) => (
             <Link
               key={link.href}
