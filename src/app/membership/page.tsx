@@ -20,6 +20,27 @@ export default function MembershipPage() {
         </div>
       </section>
 
+      {/* Member Portal */}
+      <section className="bg-legion-light-blue">
+        <div className="mx-auto max-w-4xl px-4 py-8 text-center">
+          <h2 className="text-xl font-bold text-legion-blue mb-2">
+            Current Members
+          </h2>
+          <p className="text-legion-gray mb-4">
+            Access your member portal to manage your account, renew dues, and
+            stay connected.
+          </p>
+          <a
+            href="https://www.mylegion.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-legion-blue hover:bg-legion-blue-dark text-white px-8 py-3 rounded-md font-semibold transition-colors"
+          >
+            myLegion.org Member Portal
+          </a>
+        </div>
+      </section>
+
       <section className="bg-white">
         <div className="mx-auto max-w-4xl px-4 py-16">
           {/* Eligibility */}

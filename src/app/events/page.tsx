@@ -17,7 +17,7 @@ const CALENDAR_ID = "8824f5a888e63390eafe486d5f79e2c426292690f47370abc496cc03467
 
 export default function EventsPage() {
   const calendarSrc = CALENDAR_ID
-    ? `https://calendar.google.com/calendar/embed?src=${encodeURIComponent(CALENDAR_ID)}&ctz=America%2FChicago&showTitle=0&showNav=1&showPrint=0&showCalendars=0&showTz=0&mode=MONTH`
+    ? `https://calendar.google.com/calendar/embed?src=${CALENDAR_ID}&ctz=America/Chicago&showTitle=0&showNav=1&showPrint=0&showCalendars=0&showTz=0&mode=MONTH`
     : "";
 
   return (

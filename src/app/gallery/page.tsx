@@ -9,11 +9,6 @@ export const metadata: Metadata = {
 
 const photos = [
   {
-    src: "/images/gallery/561326115_2421107391658244_5846321183005341759_n.jpg",
-    alt: "Post 205 t-shirt - Veterans Strengthening America",
-    caption: "Post 205 T-Shirt",
-  },
-  {
     src: "/images/gallery/533014431_789447486989341_2886521009776553703_n.jpg",
     alt: "American Legion Post 205 tent at community event",
     caption: "Community Outreach",
