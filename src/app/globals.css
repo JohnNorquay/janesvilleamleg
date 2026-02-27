@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-legion-blue: #00467F;
+  --color-legion-blue-dark: #003059;
+  --color-legion-blue-light: #0066B3;
+  --color-legion-red: #B5121B;
+  --color-legion-red-dark: #8E0E15;
+  --color-legion-gold: #C89212;
+  --color-legion-light-blue: #F5F8FA;
+  --color-legion-light-gray: #F5F5F5;
+  --color-legion-gray: #6B7280;
+  --color-legion-dark: #1A1A2E;
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: #ffffff;
+  color: #1a1a2e;
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
