@@ -40,7 +40,7 @@ export default function EventsPage() {
               Monthly Meeting
             </h2>
             <p className="text-legion-gray">
-              2nd Tuesday of each month at 6:15 PM &bull; Zoom option available
+              3rd Monday of each month at 6:30 PM &bull; Zoom option available
             </p>
           </div>
 

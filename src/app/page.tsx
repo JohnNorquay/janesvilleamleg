@@ -61,9 +61,9 @@ export default function Home() {
                 Monthly Meetings
               </h3>
               <p className="text-legion-gray text-sm">
-                2nd Tuesday of each month
+                3rd Monday of each month
                 <br />
-                6:15 PM &bull; Zoom available
+                6:30 PM &bull; Zoom available
               </p>
             </div>
 

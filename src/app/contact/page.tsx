@@ -65,7 +65,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-bold text-legion-blue mb-1">Meetings</h3>
                   <p className="text-legion-gray">
-                    2nd Tuesday of each month at 6:15 PM
+                    3rd Monday of each month at 6:30 PM
                     <br />
                     Zoom option available for members
                   </p>

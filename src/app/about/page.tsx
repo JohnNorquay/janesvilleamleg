@@ -114,8 +114,8 @@ export default function AboutPage() {
             </h2>
             <div className="bg-legion-light-blue rounded-lg p-6">
               <p className="text-legion-gray leading-relaxed">
-                Post 205 meets on the <strong>2nd Tuesday of each month</strong>{" "}
-                at <strong>6:15 PM</strong>. A Zoom option is available for
+                Post 205 meets on the <strong>3rd Monday of each month</strong>{" "}
+                at <strong>6:30 PM</strong>. A Zoom option is available for
                 members who cannot attend in person. Check our{" "}
                 <a
                   href="/events"
