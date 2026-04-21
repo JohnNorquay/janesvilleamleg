@@ -30,14 +30,32 @@ export default function MembershipPage() {
             Access your member portal to manage your account, renew dues, and
             stay connected.
           </p>
-          <a
-            href="https://www.mylegion.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-legion-blue hover:bg-legion-blue-dark text-white px-8 py-3 rounded-md font-semibold transition-colors"
-          >
-            myLegion.org Member Portal
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://www.mylegion.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-legion-blue hover:bg-legion-blue-dark text-white px-8 py-3 rounded-md font-semibold transition-colors"
+            >
+              myLegion.org Member Portal
+            </a>
+            <a
+              href="https://1dwilegion.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-legion-blue hover:bg-legion-blue-dark text-white px-8 py-3 rounded-md font-semibold transition-colors"
+            >
+              1st District WI Legion
+            </a>
+            <a
+              href="https://wilegion.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-legion-blue hover:bg-legion-blue-dark text-white px-8 py-3 rounded-md font-semibold transition-colors"
+            >
+              WI American Legion
+            </a>
+          </div>
         </div>
       </section>
 
@@ -156,7 +174,7 @@ export default function MembershipPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://www.legion.org/membership/join"
+                href="https://www.legion.org/join"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-legion-red hover:bg-legion-red-dark px-8 py-3 rounded-md font-semibold transition-colors"
