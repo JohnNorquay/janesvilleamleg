@@ -67,7 +67,10 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-white rounded-lg shadow-sm p-6 text-center">
+            <Link
+              href="/contact#find-us"
+              className="group bg-white rounded-lg shadow-sm p-6 text-center transition-shadow hover:shadow-md"
+            >
               <svg
                 className="w-10 h-10 mx-auto text-legion-blue mb-3"
                 fill="none"
@@ -91,11 +94,13 @@ export default function Home() {
                 Find Us
               </h3>
               <p className="text-legion-gray text-sm">
-                1015 Center Ave
+                1015 Center Ave, Janesville, WI
                 <br />
-                Janesville, WI 53546
+                <span className="text-legion-blue font-medium group-hover:underline">
+                  View map &rarr;
+                </span>
               </p>
-            </div>
+            </Link>
 
             <Link
               href="/membership"

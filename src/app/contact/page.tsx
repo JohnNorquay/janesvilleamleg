@@ -91,19 +91,19 @@ export default function ContactPage() {
             </div>
 
             {/* Map */}
-            <div>
+            <div id="find-us" className="scroll-mt-24">
               <h2 className="text-2xl font-bold text-legion-blue mb-6">
                 Find Us
               </h2>
               <div className="rounded-lg overflow-hidden border border-gray-200">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2937.5!2d-89.0!3d42.68!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s1015+Center+Ave%2C+Janesville%2C+WI+53546!5e0!3m2!1sen!2sus!4v1"
+                  src="https://maps.google.com/maps?q=1015%20Center%20Ave%2C%20Janesville%2C%20WI%2053546&z=15&output=embed"
                   className="w-full border-0"
                   height="400"
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Post 205 Location"
+                  title="Post 205 Location — 1015 Center Ave, Janesville, WI"
                 />
               </div>
               <p className="text-legion-gray text-sm mt-3">
