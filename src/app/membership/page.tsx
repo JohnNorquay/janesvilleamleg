@@ -66,39 +66,12 @@ export default function MembershipPage() {
             <h2 className="text-2xl font-bold text-legion-blue mb-4">
               Eligibility
             </h2>
-            <p className="text-legion-gray leading-relaxed mb-4">
-              Membership in The American Legion is open to all U.S. military
-              veterans who served at least one day of active military duty during
-              an eligible war era or conflict, and were honorably discharged or
-              are still serving.
-            </p>
             <div className="bg-legion-light-blue rounded-lg p-6">
-              <h3 className="font-bold text-legion-blue mb-3">
-                Eligible Service Periods
-              </h3>
-              <ul className="text-legion-gray text-sm space-y-2">
-                <li>&bull; World War II: Dec 7, 1941 &ndash; Dec 31, 1946</li>
-                <li>&bull; Korean War: Jun 25, 1950 &ndash; Jan 31, 1955</li>
-                <li>&bull; Vietnam Era: Feb 28, 1961 &ndash; May 7, 1975</li>
-                <li>&bull; Lebanon/Grenada: Aug 24, 1982 &ndash; Jul 31, 1984</li>
-                <li>&bull; Panama: Dec 20, 1989 &ndash; Jan 31, 1990</li>
-                <li>
-                  &bull; Gulf War/War on Terror: Aug 2, 1990 &ndash; present
-                </li>
-              </ul>
-              <p className="text-legion-gray text-sm mt-4">
-                The{" "}
-                <a
-                  href="https://www.legion.org/membership/eligibility"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-legion-blue font-semibold hover:underline"
-                >
-                  LEGION Act (2020)
-                </a>{" "}
-                expanded eligibility to include additional periods. If
-                you&apos;re unsure about your eligibility, contact us &mdash;
-                we&apos;re happy to help.
+              <p className="text-legion-gray leading-relaxed">
+                If you have served at least one day of active military duty since
+                December 7, 1941 and were honorably discharged, or you are still
+                serving active military duty honorably, you are eligible for
+                membership with The American Legion.
               </p>
             </div>
           </div>

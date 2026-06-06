@@ -42,7 +42,7 @@ export default function Home() {
       {/* Meeting info cards */}
       <section className="bg-legion-light-blue">
         <div className="mx-auto max-w-6xl px-4 py-12">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white rounded-lg shadow-sm p-6 text-center">
               <svg
                 className="w-10 h-10 mx-auto text-legion-blue mb-3"
@@ -120,6 +120,41 @@ export default function Home() {
                 and their families
               </p>
             </div>
+
+            <Link
+              href="/baseball"
+              className="group bg-white rounded-lg shadow-sm p-6 text-center transition-shadow hover:shadow-md"
+            >
+              <svg
+                className="w-10 h-10 mx-auto text-legion-blue mb-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  strokeWidth={1.5}
+                />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={1.5}
+                  d="M5.6 5.6c2.5 2 2.5 10.8 0 12.8M18.4 5.6c-2.5 2-2.5 10.8 0 12.8"
+                />
+              </svg>
+              <h3 className="text-lg font-bold text-legion-blue mb-2">
+                Legion Baseball
+              </h3>
+              <p className="text-legion-gray text-sm">
+                2026 season schedule
+                <br />
+                <span className="text-legion-blue font-medium group-hover:underline">
+                  View schedule &rarr;
+                </span>
+              </p>
+            </Link>
           </div>
         </div>
       </section>
