@@ -97,7 +97,10 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-white rounded-lg shadow-sm p-6 text-center">
+            <Link
+              href="/membership"
+              className="group bg-white rounded-lg shadow-sm p-6 text-center transition-shadow hover:shadow-md"
+            >
               <svg
                 className="w-10 h-10 mx-auto text-legion-blue mb-3"
                 fill="none"
@@ -117,9 +120,11 @@ export default function Home() {
               <p className="text-legion-gray text-sm">
                 Open to all eligible veterans
                 <br />
-                and their families
+                <span className="text-legion-blue font-medium group-hover:underline">
+                  Eligibility &amp; how to join &rarr;
+                </span>
               </p>
-            </div>
+            </Link>
 
             <Link
               href="/baseball"
