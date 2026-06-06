@@ -43,7 +43,10 @@ export default function Home() {
       <section className="bg-legion-light-blue">
         <div className="mx-auto max-w-6xl px-4 py-12">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white rounded-lg shadow-sm p-6 text-center">
+            <Link
+              href="/events"
+              className="group bg-white rounded-lg shadow-sm p-6 text-center transition-shadow hover:shadow-md"
+            >
               <svg
                 className="w-10 h-10 mx-auto text-legion-blue mb-3"
                 fill="none"
@@ -61,11 +64,13 @@ export default function Home() {
                 Monthly Meetings
               </h3>
               <p className="text-legion-gray text-sm">
-                3rd Monday of each month
+                3rd Monday &bull; 6:30 PM
                 <br />
-                6:30 PM &bull; Zoom available
+                <span className="text-legion-blue font-medium group-hover:underline">
+                  View calendar &rarr;
+                </span>
               </p>
-            </div>
+            </Link>
 
             <Link
               href="/contact#find-us"
