@@ -93,6 +93,26 @@ export default function EventsPage() {
             )}
           </div>
 
+          {/* 1st District calendar link */}
+          <div className="bg-legion-light-blue rounded-lg p-6 mb-8 border-l-4 border-legion-gold">
+            <h3 className="font-bold text-legion-blue mb-2">
+              Wisconsin 1st District Events
+            </h3>
+            <p className="text-legion-gray text-sm">
+              Looking for events beyond our post? See the{" "}
+              <a
+                href="https://1dwilegion.org/first-district-calendar/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-legion-blue font-semibold hover:underline"
+              >
+                1st District Calendar
+              </a>{" "}
+              for district meetings and activities across southeastern
+              Wisconsin.
+            </p>
+          </div>
+
           {/* Info about subscribing */}
           {calendarSrc && (
             <div className="bg-legion-light-gray rounded-lg p-6">
